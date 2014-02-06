@@ -1,0 +1,16 @@
+.isotope-item {
+  display: block;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  height: 25vw;
+  min-height: 200px;
+  width: 25%;
+  max-height: 35vw;
+  background-position: center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+}
