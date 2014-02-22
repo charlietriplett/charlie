@@ -699,7 +699,7 @@ cite.fn {
   float: left;
   position: relative;
   overflow: hidden;
-  width: 25%;
+  width: 24.99999% !important;
 }
 a.isotope-link {
   background-position: center center;
@@ -710,8 +710,9 @@ a.isotope-link {
   background-repeat: no-repeat;
   opacity: 0.65;
   display: block;
-  height: 25vw;
+  width: 100%;
   min-height: 200px;
+  height: 25vw;
   -webkit-transition-duration: 0.2s;
   -moz-transition-duration: 0.2s;
   -o-transition-duration: 0.2s;
@@ -724,13 +725,27 @@ a.isotope-link:focus {
   -webkit-filter: grayscale(0%);
 }
 a.isotope-link .isotope-caption {
-  display: none;
+  /* For accessible hidden text */
+  position: absolute !important;
+  left: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  margin: 0 0 0 0%;
+  padding: 0 0 0 1%;
+  border: 0 !important;
+  height: 40px !important;
+  line-height: 40px;
+  width: 99% !important;
+  overflow: hidden;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 a.isotope-link:hover .isotope-caption,
 a.isotope-link:focus .isotope-caption {
   display: block;
-  position: absolute;
-  bottom: 0;
+  position: relative;
+  top: 0;
   left: 0;
   background: #fff;
   padding-left: .5rem;
