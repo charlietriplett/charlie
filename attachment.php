@@ -1,17 +1,3 @@
-<?php
-/**
- * Template file used to render a attachment page
- * 
- *
- * @package WordPress
- * @subpackage SITENAME
- * @category theme
- * @category template
- * @author Charlie Triplett, University of Missouri
- * @copyright 2013 Curators of the University of Missouri
- */
-?>
-
 <?php get_header(); ?>
 
 <div class="span12">

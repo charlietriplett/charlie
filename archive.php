@@ -67,16 +67,14 @@
 			</div> <!-- end content  -->
 		
 		        <div class="clear"></div>
-		        <?php if (show_posts_nav() ) { // uses show_posts_nav in functions.php?>
-			        <div class="pagination-nav">
-				        <div class="alignleft">
-				        	<p><?php next_posts_link('&laquo; Previous Entries ') ?></p>
-				        </div>
-				        <div class="alignright">
-				        	<p><?php previous_posts_link('Newer Entries &raquo;') ?></p>
-				        </div>
+		        <div class="pagination-nav">
+			        <div class="alignleft">
+			        	<p><?php next_posts_link('&laquo; Previous Entries ') ?></p>
 			        </div>
-		        <?php } // end if show_posts_nav ?>
+			        <div class="alignright">
+			        	<p><?php previous_posts_link('Newer Entries &raquo;') ?></p>
+			        </div>
+		        </div>
 		
 	</div> <!-- end span8  -->
 	
