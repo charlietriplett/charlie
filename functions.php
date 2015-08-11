@@ -1,16 +1,4 @@
 <?php
-/**
- * Contains functions necessary for the functionality and display of the theme
- * 
- * 
- * @package WordPress
- * @subpackage SITENAME
- * @category theme
- * @category functions
- * @author Paul F. Gilzow & Jason L Rollins, Web Communications, University of Missouri
- * @copyright 2013 Curators of the University of Missouri
- * @version 201303281326
- */
 
 // include 'functions/meta.php';
 include 'functions/settings.php';

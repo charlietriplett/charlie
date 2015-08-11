@@ -1,22 +1,3 @@
-<?php
-/**
- * Template file used to render sidebar
- * 
- * Called on other template files via 
- * <code>
- * get_sidebar(); 
- * </code>
- * 
- *
- * @package WordPress
- * @subpackage SITENAME
- * @category theme
- * @category template-part
- * @author Charlie Triplett, Web Communications, University of Missouri
- * @copyright 2013 Curators of the University of Missouri
- */
-?>
-
 <aside>
 
 	<div id="sidebar" class="span4">
@@ -58,12 +39,6 @@
 						<li><a class="hidden skip-to-content" href="#main"><span class="text">Skip to content</span></a></li>
 					</ol>
 				
-					<h3>Blog</h3>
-				    <ul>
-				     <? while ($related_posts->have_posts()) : $related_posts->the_post(); ?>
-				        <li><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></li>
-			       <?php endwhile; ?>
-				    </ul>
 			   <?php } //if ($my_query)
 			  } //if ($categories)
 			  wp_reset_query();  // Restore global post data stomped by the_post().

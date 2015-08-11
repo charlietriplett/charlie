@@ -1,15 +1,7 @@
 <?php
-/**
- * Template file used to render an A-Z sitemap
- * 
- * Template Name: A-Z Directory
- * @package WordPress
- * @subpackage SITENAME
- * @category theme
- * @category template
- * @author Charlie Triplett, University of Missouri
- * @copyright 2013 Curators of the University of Missouri
- */
+/*
+Template Name: A-Z Directory
+*/
 ?>
 
 <?php get_header(); ?>
