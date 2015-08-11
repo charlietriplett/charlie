@@ -31,9 +31,7 @@
 	<div id="header" class="container clearfix">
 
 			<ol class="skip-links">
-				<li><a class="mobile-nav-button desktop-hide" href="#mobile-navigation"><span class="text">Skip to Menu</span></a></li>
 				<li><a class="hidden skip-to-content" href="#main"><span class="text">Skip to content</span></a></li>
-				<li><a class="hidden skip-to-nav mobile-hide" href="#navigation"><span class="text">Skip to Navigation</span></a></li>
 			</ol>
 
 			<div class="clear"></div>

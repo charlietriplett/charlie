@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<div class="container">
 <div class="span12">
 
 <main id="main" role="main">
@@ -50,13 +50,6 @@
 				
 				<?php endif; ?>
 				
-				<?php if ( wp_attachment_is_image() ) { ?>
-					<ol>
-						<li class="previous-image"><?php previous_image_link() ?></div>
-						
-						<div class="next-image"> <?php next_image_link() ?> </div>
-					</ol>
-				<?  } ?>
 				<footer>
 				<p>This file is attached to: <a href="<?php echo get_permalink($post->post_parent); ?>" rev="attachment"><?php echo get_the_title($post->post_parent); ?></a></p>
 				</footer>
@@ -68,4 +61,5 @@
 	
 </main>
 </div> <!-- end span12 -->
+</div>
 <?php get_footer(); ?>
